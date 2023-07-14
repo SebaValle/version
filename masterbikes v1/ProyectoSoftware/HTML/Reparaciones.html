@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparaciones\</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Reparaciones.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <H2 class="logotipo">Master Bikes</H2>
+            <nav>
+                <a href="../HTML/index.html">Inicio</a>
+                <a href="../HTML/Bicicleta.html">Bicicletas</a>
+                <a href="#">Reparaciones</a>
+                <a href="../HTML/Contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <h1>Solicite su Reparacion</h1>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="marca">Marca de la bicicleta:</label>
+        <input type="text" id="marca" name="marca" required>
+
+        <label for="modelo">Modelo de la bicicleta:</label>
+        <input type="text" id="modelo" name="modelo" required>
+
+        <label for="descripcion">Descripción del problema:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+
+        <input type="submit" value="Enviar solicitud">
+    </form>
+
+    <div id="aviso" class="aviso">
+        <h3>Solicitud enviada correctamente. Nos pondremos en contacto contigo pronto.</h3>
+    </div>
+
+    <footer class="Piedepagina">
+        <div class="grupo1">
+            <div class="box">
+                <figure>
+                    <img src="../IMG/Logotipo/LogoTipo.png" alt="Logo de la pagina">
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Master Bikes: 30 años fabricando bicicletas en el barrio San Diego. Variedad de modelos para adultos y niños. Compromiso con la calidad y satisfacción del cliente.</p>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/" class="bi bi-instagram" target="_blank">
+                        <img src="../IMG/Logotipo/instagramlogodef.png" width="45" height="45" alt="">
+                    </a>
+                    <a href="https://es-la.facebook.com/" class="bi bi-facebook" target="_blank">
+                        <img src="../IMG/Logotipo/Facebook_logo_(square).png" width="45" height="45"
+                            alt="">
+                    </a>
+                    <a href="https://twitter.com/?lang=es" class="bi bi-twitter" target="_blank">
+                        <img src="../IMG/Logotipo/twitter-logo-4.png" width="45" height="45" alat="">
+                    </a>
+                    <a href="https://www.youtube.com/" class="bi bi-youtube" target="_blank">
+                        <img src="../IMG/Logotipo/Youtube_logo.png" width="45" height="45" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>    
+        <div class="grupo2">
+            <small>&copy; 2023 <b>Master Bikes</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+    <script src="../JS/Reparaciones.js"></script>
+
+</body>
+
+</html>

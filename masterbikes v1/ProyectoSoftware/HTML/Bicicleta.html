@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicicletas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="../JS/BicicletaCarrito.js"></script>
+    <link rel="stylesheet" href="../CSS/bicicleta.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <H2 class="logotipo">Master Bikes</H2>
+            <nav>
+                <a href="../HTML/index.html" class="Activo">Inicio</a>
+                <a href="#">Bicicletas</a>
+                <a href="../HTML/Reparaciones.html">Reparaciones</a>
+                <a href="../HTML/Contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <div class="contenedorPrincipal">
+        <h1>Nuestras Bicicletas</h1>
+        <section class="contenedorCarrito">
+            <!-- Contenedor de elementos -->
+            <div class="contenedor-items">
+                <div class="item">
+                    <span class="titulo-item">BICICLETA BMX HUFFY REVOLT ARO 20 NEGRO</span>
+                    <img src="../IMG/Bicicletas/Bicicleta1.jpg" alt="" class="img-item">
+                    <span class="precio-item">$199.000</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA BMX HUFFY REVOLT ARO 20 NEGRO</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+                <div class="item">
+                    <span class="titulo-item">BICICLETA BMX HUFFY REVOLT ARO 20 GRIS</span>
+                    <img src="../IMG/Bicicletas/Bicicleta2.jpg" alt="" class="img-item">
+                    <span class="precio-item">$169.992</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA BMX HUFFY REVOLT ARO 20 GRIS</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA INFANTIL HUFFY DELIRIUM ARO 16 NEGRO</span>
+                    <img src="../IMG/Bicicletas/bicicleta3.jpg" alt="" class="img-item">
+                    <span class="precio-item">$149.990</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA INFANTIL HUFFY DELIRIUM ARO 16 NEGRO</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA MTB KROSS ALT SM LEVEL 3.0 GRIS</span>
+                    <img src="../IMG/Bicicletas/Bicicleta4.jpg" alt="" class="img-item">
+                    <span class="precio-item">$664.993</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA MTB KROSS ALT SM LEVEL 3.0 GRIS</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA CROSS COUNTRY MUJER KROSS EVADO 4.0 NEGRO</span>
+                    <img src="../IMG/Bicicletas/Bicicleta5.jpg" alt="" class="img-item">
+                    <span class="precio-item">$599.993</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA CROSS COUNTRY MUJER KROSS EVADO 4.0 NEGRO </p> 
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA TREKKING KROSS TRANS 1.0 DAMA SR RUBY BLACK GLOSSY</span>
+                    <img src="../IMG/Bicicletas/Bicicleta6.jpg" alt="" class="img-item">
+                    <span class="precio-item">$389.994</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA TREKKING KROSS TRANS 1.0 DAMA SR RUBY BLACK GLOSSY</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA TREKKING KROSS TRANS 1.0 DAMA SR BLACK GREY GLOSSY</span>
+                    <img src="../IMG/Bicicletas/bicicleta7.jpg" alt="" class="img-item">
+                    <span class="precio-item">$389.994</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA TREKKING KROSS TRANS 1.0 DAMA SR BLACK GREY GLOSSY</p>
+                        <br>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA GRAVEL KROSS ESKER 6.0 NEGRO</span>
+                    <img src="../IMG/Bicicletas/bicicleta8.jpg" alt="" class="img-item">
+                    <span class="precio-item">$1.741.993</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA GRAVEL KROSS ESKER 6.0 NEGRO</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA MTB INFANTIL KROSS HEXAGON MINI 1.0 AZUL NARANJO</span>
+                    <img src="../IMG/Bicicletas/Bicicleta9.jpg" alt="" class="img-item">
+                    <span class="precio-item">$272.992</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA MTB INFANTIL KROSS HEXAGON MINI 1.0 AZUL NARANJO</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA MTB KROSS HEXAGON 5.0 NEGRO GRIS AMARILLO</span>
+                    <img src="../IMG/Bicicletas/Bicicleta10.jpg" alt="" class="img-item">
+                    <span class="precio-item">$468.993</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA MTB KROSS HEXAGON 5.0 NEGRO GRIS AMARILLO</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA MTB KROSS LEVEL 1.0 NEGRO NARANJO</span>
+                    <img src="../IMG/Bicicletas/Bicicleta11.jpg" alt="" class="img-item">
+                    <span class="precio-item">$519.994</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA MTB KROSS LEVEL 1.0 NEGRO NARANJO</p>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+
+                <div class="item">
+                    <span class="titulo-item">BICICLETA RUTA KROSS VENTO 4.0 DSC SM RED GLOSSY</span>
+                    <img src="../IMG/Bicicletas/Bicicleta12.jpg" alt="" class="img-item">
+                    <span class="precio-item">$1.329.993</span>
+                    <button class="boton-item">Arrendar</button>
+                    <div class="contenido-adicional" style="display: none;">
+                        <!-- Contenido adicional oculto -->
+                        <p>BICICLETA RUTA KROSS VENTO 4.0 DSC SM RED GLOSSY</p>
+                        <br>
+                    </div>
+                    <button class="ver-mas" onclick="mostrarContenido(this)">Ver más</button>
+                    <button class="ver-menos" onclick="ocultarContenido(this)" style="display: none;">Ver menos</button>
+                </div>
+            </div>
+            <!-- Carrito de Compras -->
+            <div class="carrito" id="carrito">
+                <div class="header-carrito">
+                    <h2>Tus Arriendo</h2>
+                </div>
+
+                <div class="carrito-items">
+
+                </div>
+                <div class="carrito-total">
+                    <div class="fila">
+                        <strong>Tu Total</strong>
+                        <span class="carrito-precio-total">
+                            $120.000
+                        </span>
+                    </div>
+
+                    <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+                </div>
+            </div>
+        </section>
+    </div>    
+
+
+    <footer class="Piedepagina">
+        <div class="grupo1">
+            <div class="box">
+                <figure>
+                    <img src="../IMG/Logotipo/LogoTipo.png" alt="Logo de la pagina">
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Master Bikes: 30 años fabricando bicicletas en el barrio San Diego. Variedad de modelos para adultos y niños. Compromiso con la calidad y satisfacción del cliente.</p>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/" class="bi bi-instagram" target="_blank">
+                        <img src="../IMG/Logotipo/instagramlogodef.png" width="45" height="45" alt="">
+                    </a>
+                    <a href="https://es-la.facebook.com/" class="bi bi-facebook" target="_blank">
+                        <img src="../IMG/Logotipo/Facebook_logo_(square).png" width="45" height="45"
+                            alt="">
+                    </a>
+                    <a href="https://twitter.com/?lang=es" class="bi bi-twitter" target="_blank">
+                        <img src="../IMG/Logotipo/twitter-logo-4.png" width="45" height="45" alat="">
+                    </a>
+                    <a href="https://www.youtube.com/" class="bi bi-youtube" target="_blank">
+                        <img src="../IMG/Logotipo/Youtube_logo.png" width="45" height="45" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy; 2023 <b>Master Bikes</b> - Todos los Derechos Reservados.</small>
+        </div>   
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

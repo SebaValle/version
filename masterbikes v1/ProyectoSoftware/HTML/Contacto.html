@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Contacto.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <H2 class="logotipo">Master Bikes</H2>
+            <nav>
+                <a href="../HTML/index.html">Inicio</a>
+                <a href="../HTML/Bicicleta.html">Bicicletas</a>
+                <a href="../HTML/Reparaciones.html">Reparaciones</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contenedorPrincipal">
+        <div class="contenedor1">
+            <H1>NOSOTROS SOMOS</H1>
+            <br>
+            <h2>Historia</h2>
+            <br>
+            <p>La fábrica de bicicletas "San Diego" es reconocida por su experiencia de 30 años en la fabricación de bicicletas y triciclos en el barrio San Diego. Ofrece una amplia gama de bicicletas para adultos y niños, incluyendo modelos de paseo, montaña y ciclismo. La empresa se destaca por su enfoque en satisfacer las necesidades del cliente y su conocimiento profundo del mercado local. Cuenta con una casa matriz, una sucursal de venta y ahora agregado una pagina web en el cual puedan ofrecer sus servicios de forma digital, Ademas cuenta con personal comprometido y supervisores dedicados. "San Diego" se enorgullece de su tradición y calidad en la fabricación de bicicletas.</p>
+            <br>
+            <h2>Para que se creo esta pagina web?</h2>
+            <br>
+            <p>La página web de Master Bikes se creó para ampliar la presencia de la empresa en el mercado y brindar una experiencia digital mejorada a los clientes. A través de la plataforma en línea, la empresa puede promocionar sus productos, interactuar directamente con los clientes y mejorar la visibilidad de la marca. La creación de la página web es parte de una estrategia para adaptarse a las nuevas tendencias y ofrecer un mejor servicio en el entorno digital.</p>
+            <br>
+            <h2>Autores de la pagina:</h2>
+            <br>
+    
+            <li>Sebastian Valle</li>
+            <br>
+        </div>
+        <div class="contenedor2">
+            <H1>Necesitas Contactarnos</H1>
+            <form onsubmit="mostrarMensaje()">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+        
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+        
+                <label for="descripcion">Mensaje:</label>
+                <textarea id="descripcion" name="descripcion"></textarea>
+        
+                <input type="submit" value="Enviar Mensaje">
+            </form>
+            <div id="mensaje-enviado"></div>
+        </div>
+    </div>
+
+
+    
+
+
+
+    <footer class="Piedepagina">
+        <div class="grupo1">
+            <div class="box">
+                <figure>
+                    <img src="../IMG/Logotipo/LogoTipo.png" alt="Logo de la pagina">
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Master Bikes: 30 años fabricando bicicletas en el barrio San Diego. Variedad de modelos para adultos y niños. Compromiso con la calidad y satisfacción del cliente.</p>
+            </div>
+            <div class="box">
+                <h2>SÍGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/" class="bi bi-instagram" target="_blank">
+                        <img src="../IMG/Logotipo/instagramlogodef.png" width="45" height="45" alt="">
+                    </a>
+                    <a href="https://es-la.facebook.com/" class="bi bi-facebook" target="_blank">
+                        <img src="../IMG/Logotipo/Facebook_logo_(square).png" width="45" height="45"
+                            alt="">
+                    </a>
+                    <a href="https://twitter.com/?lang=es" class="bi bi-twitter" target="_blank">
+                        <img src="../IMG/Logotipo/twitter-logo-4.png" width="45" height="45" alat="">
+                    </a>
+                    <a href="https://www.youtube.com/" class="bi bi-youtube" target="_blank">
+                        <img src="../IMG/Logotipo/Youtube_logo.png" width="45" height="45" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>    
+        <div class="grupo2">
+            <small>&copy; 2023 <b>Master Bikes</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="../JS/Contacto.js"></script>
+</body>
+</html>
